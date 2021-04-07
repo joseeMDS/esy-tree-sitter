@@ -2,10 +2,11 @@
     "name": "esy-tree-sitter",
     "version": "0.19.4",
     "description": "tree-sitter packaged for esy",
-    "source": "https://github.com/tree-sitter/tree-sitter/archive/refs/tags/v0.19.4.tar.gz#56c7c6b39d908c2df059e2c7f75860f819010671",
+    "source": "https://github.com/tree-sitter/tree-sitter/archive/refs/tags/v0.19.4.tar.gz#1d7c9544e71d125b1387fc38c9eefb9f12df194a",
     "override": {
         "buildsInSource": true,
         "build": [
+            "echo making",
             "make"
         ],
         "install": [

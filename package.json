@@ -9,7 +9,7 @@
             "make"
         ],
         "install": [
-            "make install"
+            "make PREFIX=$cur__install install"
         ],
         "exportedEnvs": {
             "PKG_CONFIG_PATH": {

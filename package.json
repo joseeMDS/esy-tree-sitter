@@ -6,7 +6,6 @@
     "override": {
         "buildsInSource": true,
         "build": [
-            "echo making",
             "make"
         ],
         "install": [
